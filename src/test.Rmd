@@ -1,0 +1,43 @@
+---
+title: "Test Slideshow"
+output: 
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+    transition: 0
+    slide_level: 3
+    css: custom.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+### Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+  - Sub bullet 1
+  - Sub bullet 1
+- Bullet 3
+
+### Slide with Code and Table
+
+```{r cars, echo = TRUE}
+library(knitr)
+
+kable(summary(cars))
+```
+
+### Slide with Code and Plot
+
+```{r pressure}
+plot(pressure)
+```
+
