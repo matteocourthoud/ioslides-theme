@@ -13,12 +13,6 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-### R Markdown
-
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
-
 ### Slide with Bullets
 
 - Bullet 1
@@ -27,7 +21,19 @@ When you click the **Knit** button a document will be generated that includes bo
   - Sub bullet 1
 - Bullet 3
 
-### Slide with Code and Table
+### Slide with Code
+
+This is some code with a print below. 
+
+```{r code, echo = TRUE}
+for (i in 1:3) {
+  print(paste("i = ", i))
+}
+```
+
+### Slide with Table
+
+This is a table.
 
 ```{r cars, echo = TRUE}
 library(knitr)
@@ -35,7 +41,9 @@ library(knitr)
 kable(summary(cars))
 ```
 
-### Slide with Code and Plot
+### Slide with Plot
+
+This is a plot.
 
 ```{r pressure}
 plot(pressure)
