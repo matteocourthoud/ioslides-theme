@@ -10,4 +10,4 @@ This is my personal theme for **ioslides** with RMarkdown. Much wow... 🤩
 
 Example below and in the repo.
 
-![sample](src/sample.png){width=10%}
+<img src="src/sample.png" alt="sample" style="zoom:20%;" />
