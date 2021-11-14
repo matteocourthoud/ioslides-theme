@@ -1,5 +1,7 @@
 ---
-title: "Test Slideshow"
+title: "Title Slide"
+author: "Matteo Courthoud"
+date: 2021-10-29
 output: 
   ioslides_presentation:
     widescreen: true
@@ -12,6 +14,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Section Slide
 
 ### Slide with Bullets
 

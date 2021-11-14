@@ -8,24 +8,51 @@ Repo: https://github.com/matteocourthoud/ioslides-theme
 /* Import google fonts */
 @import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans&display=swap');
 
-/* Change for of all slides and allow scrolling */
+/* Slide: change font */
 slides > slide {
   font-family: 'Source Sans Pro', sans-serif;
   overflow: scroll;
 }
 
-/* Change slide content */
+/* Slide: text color black */
 slides > slide > article {
   color: black;
   font-weight: 300;
 }
 
-/* References */
+/* Slide: transition slides white */
+slides > slide.dark {
+  background-color: white !important;
+}
+
+/* Header: change color */
+h1 {
+  color: #003f5c !important; 
+}
+h2 {
+  color: #003f5c !important; 
+}
+
+/* Header: underline section slides */
+.auto-fadein {
+  width: 70%;
+}
+.auto-fadein > h1 {
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+.auto-fadein > h2 {
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+}
+
+/* References: text color white 
 .csl-entry p {
   color: white;
 }
+*/
 
-/* Color citations */
+/* Citations: colored */
 .cite {
   color: #2b7ddf;
 }
