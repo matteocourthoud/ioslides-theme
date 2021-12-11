@@ -27,10 +27,10 @@ slides > slide.dark {
 
 /* Header: change color */
 h1 {
-  color: #003f5c !important; 
+  color: #003f5c !important;
 }
 h2 {
-  color: #003f5c !important; 
+  color: #003f5c !important;
 }
 
 /* Header: underline section slides */
@@ -46,7 +46,7 @@ h2 {
   padding-bottom: 10px;
 }
 
-/* References: text color white 
+/* References: text color white
 .csl-entry p {
   color: white;
 }
@@ -63,6 +63,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
+  max-width: 100%;
 }
 
 /* Unordered list style */
